@@ -49,3 +49,14 @@ button{
     background-color: blue;
     cursor: pointer;
 }
+@media(max-width:500px){
+  body{
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form{
+    margin: 2rem 0rem;
+  }
+}
